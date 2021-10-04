@@ -232,25 +232,7 @@
 										<div class="send_btn">
 												<button type="submit" class="main_bt" name="send">Enviar</button>                  
 										</div>
-									</form> 
-									<?php
-										include("forms/contact.php");
-										if(isset($_GET['Enviado'])){
-										echo('
-										<div class="alert alert-success alert-dismissible fade show" role="alert">
-										<strong>Gracias por contactarnos!</strong> Ya recibimos tu mensaje. Nos comunicaremos contigo a la brevedad.
-										</div>    
-										');
-										}else{
-											if(isset($_GET['Error'])){
-											echo('
-											<div class="alert alert-warning alert-dismissible fade show" role="alert">
-											<strong>Lo sentimos!</strong> No pudimos recibir tu mensaje. Por favor intentalo nuevamente.
-											</div>    
-											');    
-											};   
-										};
-									?>	
+									</form> 	
 								</div>
 							</div>
 						</div>
