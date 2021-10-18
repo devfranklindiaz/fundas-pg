@@ -33,7 +33,7 @@ html {
 
 body {
      color: #666666;
-     font-size: 14px;
+     font-size: 10px;
      font-family: 'Josefin Sans', sans-serif;;
      line-height: 1.80857;
      font-weight: normal;
@@ -64,7 +64,7 @@ h6 {
      font-weight: normal;
      line-height: normal;
      color: #111111;
-     margin: 0
+     margin: 1px;
 }
 
 h1 {
@@ -139,22 +139,29 @@ a {
 .layout_padding {
     padding-bottom: 0px;
     padding-top: 90px;
-}}
+}
 
 
-.header_main{ width: 100%; float: left; }
+.header_main{ width: 100%; float: center; }
+
 .main-menu ul>li a {
-    line-height: 20px;
-    font-size: 16px;
+    line-height: 15px;
+    font-size: 13px;
     display: block;
-    font-weight: 500;
+    font-weight: 30px;
     color: #090400;
-    padding: 22px 20px;
-    margin-top: 10px;
+    padding: 10px 20px;
     text-transform: uppercase;
 }
+
+.menu-area-main li a:hover{
+    color: white;
+    background-color: #9806ac;
+}
+
+
 .main-menu ul {
-    margin: 0;
+    margin: 30px;
     list-style-type: none;
     margin-bottom: 10px;
 }
@@ -194,7 +201,6 @@ nav.main-menu {
 
 .mean-container .mean-bar { background: #ed1c24;}
 
-.main-menu ul > li.active a{ background-color: #2888ee; color: #ffffff; }
 
 .carousel-indicators .active {
     background-color: #9806ac;
