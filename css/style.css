@@ -335,7 +335,8 @@ nav.main-menu {
  .about_taital{
  	width: 100%;
  	float: left;
- 	color: #686666;
+ 	color: #000;
+    text-align: justify;
  	font-size: 14pt;
  	margin-left: 0px;
  	padding-top: 20px;
