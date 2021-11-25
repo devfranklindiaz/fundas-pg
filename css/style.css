@@ -282,6 +282,7 @@ nav.main-menu {
 	width: 100%;
 	float: left;
 	font-size: 50pt;
+    text-align: justify;
 	color: #b30da5;
 	line-height: 75px;
 }
