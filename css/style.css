@@ -282,9 +282,16 @@ nav.main-menu {
 	width: 100%;
 	float: left;
 	font-size: 50pt;
-    text-align: justify;
 	color: #b30da5;
 	line-height: 75px;
+}
+.banner_taital_1{
+	width: 100%;
+	float: left;
+	font-size: 25pt;
+    text-align: justify;
+	color: #b30da5;
+	line-height: 40px;
 }
 .taital{
 	margin-top: 50px;
@@ -293,6 +300,16 @@ nav.main-menu {
 .banner-image{
 	width: 100%;
 	float: left;
+}
+
+.banner-image-1{
+    width: 1110px;
+    height: 500px;
+}
+
+.banner-image-2{
+    height: 500px;
+    width: 500px;
 }
 
 .lorem_text{
