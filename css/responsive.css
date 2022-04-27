@@ -440,4 +440,18 @@ ul.link li {
     margin-top: 0px;
 }
 
+.layout_padding .banner_section .container{
+    max-width: 400px;
+}
+
+.banner-image-1{
+    width: 100%;
+    height: auto;
+}
+
+.banner-image-2{
+    height: 100%;
+    width: auto;
+}
+
 }
