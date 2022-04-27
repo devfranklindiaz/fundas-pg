@@ -139,8 +139,8 @@ a {
 }
 
 .layout_padding {
-    padding-bottom: 0px;
-    padding-top: 90px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 
@@ -178,9 +178,6 @@ nav.main-menu {
     margin-left: 0;
 }
 
-.taital{
-
-}
 
 .banner_section_start{
 	width: 100%;
@@ -458,6 +455,8 @@ nav.main-menu {
 	float: right;
 	margin-top: 50px;
 }
+
+
 .images {
     width: 100%!important;
     margin-bottom: 20px;
@@ -576,6 +575,7 @@ button.main_bt a:hover { color: #fa3e19; }
 	padding-top: 10px;	
 
 }
+
 .email_text {
     font-size: 17px;
     color: #0e0e0e;
